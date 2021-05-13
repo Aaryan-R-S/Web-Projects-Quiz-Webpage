@@ -1,0 +1,47 @@
+body{
+    background-color: #00DBDE;
+    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+    font-family: 'Courier New', Courier, monospace;   
+}
+#quiz-cont{
+   height: 50vh;
+   width: 30vw;
+   background-color: white;
+   margin: auto;
+   margin-top: 16vh;
+}
+
+h2, h4{
+    padding: 20px 25px 0px;
+    font-size: 22px;
+    font-family: 'Courier New', Courier, monospace;
+}
+ul{
+    padding: 10px;
+    padding-left: 30px;
+    list-style: none;
+}
+
+li{
+    padding-bottom: 6px;
+}
+ul li label{
+    cursor: pointer;
+}
+ul li label:hover{
+    font-weight: bold;
+}
+button{
+    background-color: #8e44ad;
+    color: white;
+    display: block;
+    width: 100%;
+    border: none;
+    outline: none;
+    height: 12vh;
+    transition: background-color 0.5s linear;
+}
+button:hover{
+    background-color: #e800fd;
+    cursor: pointer;
+}
